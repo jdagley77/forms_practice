@@ -1,0 +1,69 @@
+#container {
+	width: 600px;
+	margin: 0 auto;
+}
+
+form {
+	margin-top: 40px;
+}
+
+fieldset {
+	padding: 40px;
+	border: solid 1px #aaa;
+	background: lightblue;
+}
+
+fieldset legend {
+	background: white;
+	padding: 10px;
+	border: solid 1px #aaa;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+textarea {
+	padding: 10px;
+	margin: 0 0 20px;
+	border: solid 1px #454545;
+	display: block;
+	width: 50%;
+	font-size: 14px;
+	color: #777;
+	font-family: "Monaco", monospace;
+	text-transform: uppercase;
+}
+
+textarea {
+	resize: none;
+}
+
+label {
+	font-size: 12px;
+	text-transform: uppercase;
+	background: red;
+	display: block;
+	width: 50%;
+	padding: 2%;
+	color: white;
+	border-top: none;
+}
+
+input[type="submit"] {
+	background: orange;
+	border: none;
+	height: 40px;
+	border: solid 1px #777;
+	color: white;
+	padding: 0 40px;
+}
+
+input[type="submit"]:hover {
+	cursor: pointer;
+	border-color: red;
+}
+
+input[type="submit"]:active {
+	border-color: black;
+	outline-color: blue;
+}
